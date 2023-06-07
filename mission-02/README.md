@@ -59,3 +59,6 @@ login_button은 로그인 버튼을 위한 공간입니다.
 
 IDandPW는 bowforID와 boxforPW로 구분되어있으며
 각 box는 text와 box를 위한 공간으로 구분되어있습니다
+
+url("./login.png")
+url(./login.png)
