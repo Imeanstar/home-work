@@ -58,17 +58,6 @@
 
 }
 
-
-.lower_box{
-    width : 204px;
-    height: 36px;
-    /* background: blue; */
-    /* display: inline-block; */
-    /* top : 220px; */
-    position:relative;
-    left : 8px
-}
-
 .IDandPW{
     /* background: yellow; */
     width : 146px;
@@ -98,9 +87,6 @@
     font-size: 12px;
     height: 50%;
 }
-
-
-
 
 .boxforPW{
     /* background: salmon; */
@@ -135,10 +121,53 @@
     color : white;
 }
 
-
+.lower_box{
+    width : 204px;
+    height: 36px;
+    /* background: blue; */
+    /* display: inline-block; */
+    /* top : 220px; */
+    /* position:relative; */
+    /* left : 8px */
+}
 
 .regis{
-    padding-top : 4px;
+    /* background: yellow; */
+    list-style : none;
+    margin : 0;
+    /* float:left; */
+    width : 204px;
+    height: 36px;
+
     font-size : 12px;
     font-weight: 500;
+    padding-left : 8px;
+    padding-top : 8px;
+
+    /* padding-top : 4px;
+    font-size : 12px;
+    font-weight: 500; */
+}
+
+.arrow1{
+    float : left;
+    width : 10px;
+    padding-top : 2px;
+}
+.arrow2{
+    float : right;
+    width : 10px;
+    padding-top : 2px;
+}
+
+.register{
+    float : left;
+    color : black;
+    font-weight: 500;
+    /* background: red; */
+}
+
+.find{
+    float : right;
+    color : black;
 }
