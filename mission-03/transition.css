@@ -1,0 +1,68 @@
+.greybox{
+    width : 190px;
+    height: auto;
+    background: linear-gradient(to bottom, #CCCCCC, #EEEEEE);
+    border-radius : 5px;
+    border : 1px solid #acacac;
+}
+
+.relate_site{
+    font-weight: 700;
+    font-size : 12px;
+    padding-top : 8px;
+    margin : 0;
+    float : left;
+}
+.relate_site1{
+    color : #181818;  
+    padding-left : 12px;
+    padding-right : 4px;
+}
+.relate_site2{
+    color : #ed552f; 
+}
+
+.whitebox{
+    width : 166px;
+    height: 18px;
+    background: white;
+
+    margin-top : 39px;
+    margin-left : 12px;
+    margin-bottom : 8px;
+    
+    padding-bottom : 10px;
+    padding-top : 0px;
+
+    border : 1px solid #acacac;
+    border-radius: 5px;
+
+    overflow: hidden;
+
+    transition-property : height, padding-bottom, padding-top;
+    transition-duration : 550ms, 550ms, 550ms;
+    transition-delay : 0s, 550ms, 500ms;
+}
+.whitebox:hover{
+    height: 145px;
+    padding-bottom : 0px;
+    padding-top : 10px;
+}
+.whitebox_inside{
+    list-style : none;
+    padding : 0;
+    margin : 0;
+    margin-left : 24px;
+}
+
+.inside{
+    padding-top : 6px;
+    padding-bottom : 6px;
+    font-size : 12px;
+    font-weight: 500;
+}
+
+.linkstyle{
+    text-decoration-line : none;
+    color : black;
+}
