@@ -2,7 +2,7 @@
 1. upperbox<br/>
 2. middleline<br/>
 3. lowerbox 이다<br/>
-<br/><br/>
+<br/>
 upperbox의 경우 float를 이용하여 "새소식"과 "더보기"를 배치하였다.<br/>
 <br/>
 middleline의 경우 박스를 얇게 만들고 그라데이션을 주어 시안과 같이 배치하였다.<br/><br/>
