@@ -1,0 +1,96 @@
+.upperbox{
+
+    margin-left : 100px;
+    margin-top : 100px;
+
+    width : 190px;
+    height : 147px;
+
+    background: linear-gradient(to right bottom,  #aaaaaa, #cccccc ,#cccccc);
+     
+
+    border-radius: 7px;
+    border : #a3a3a3 solid 1px;
+}
+
+
+.title1{
+    /* position : absolute; */
+    padding-left : 12px;
+    padding-top : 12px;
+
+
+    margin : 0;
+    display : inline-block;
+    font-size : 14px;
+}
+.title2{
+    color : #ED552F;
+
+    
+    margin : 0;
+    display : inline-block;
+    font-size : 14px;
+}
+
+.more{
+    font-size : 14px;
+    float : right;
+    margin : 0;
+    /* margin-bottom : 0px; */
+    padding-top : 12px;
+    padding-right : 12px;
+}
+
+
+ol{
+    list-style-type: none;
+    padding-left : 32px;
+    margin-top : 8px;
+
+    
+}
+li{
+    counter-increment : num 1;
+    padding-top : 6px;
+    /* padding-left : 5px; */
+}
+
+.li__sprite{
+    background: url(./rank.png) no-repeat;
+    background-position : right 5px;
+    margin-right : 12px;
+}
+
+
+.list__second{
+    background-position : right -36px;
+}
+.list__third{
+    background-position : right -15px;
+}
+.list__forth{
+    background-position : right 10px;
+}
+
+
+.li__list::before{
+    
+    content : counter(num );
+    background: #a3a3a3;
+    width : 16px;
+    height: 16px;
+    border-radius: 3px;
+    /* margin-right : 10px; */
+
+    position : absolute;
+    left : 120px;
+    text-align: center;
+    color : white;
+    font-size : 6px;
+}
+
+.li__list{
+    font-size : 13px;
+    
+}
