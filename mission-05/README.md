@@ -9,7 +9,7 @@ title과 more class로 상단의 글자들을 배치해주었다.
 >    - ol에 list-style-type : none을 주어 앞의 숫자 없애줌
 >    - li에 counter-increment에 1을 주어서 1씩 증가하게 설정
 >    - li__sprite에 rank.png 설정
->>        + 이후 각 li__second, third, forth 별로 위치 설정하여 배치
+>>        이후 각 li__second, third, forth 별로 위치 설정하여 배치
 >    - li__list::before 이용하여 각 리스트 별 목차 생성 및 꾸미기
 
 
